@@ -1,0 +1,16 @@
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\bin\Debug\net5.0\ScreenSound.exe
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\bin\Debug\net5.0\ScreenSound.deps.json
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\bin\Debug\net5.0\ScreenSound.runtimeconfig.json
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\bin\Debug\net5.0\ScreenSound.runtimeconfig.dev.json
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\bin\Debug\net5.0\ScreenSound.dll
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\bin\Debug\net5.0\ScreenSound.pdb
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ScreenSound.csproj.AssemblyReference.cache
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ScreenSound.AssemblyInfoInputs.cache
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ScreenSound.AssemblyInfo.cs
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ScreenSound.csproj.CoreCompileInputs.cache
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ScreenSound.dll
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\refint\ScreenSound.dll
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ScreenSound.pdb
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ScreenSound.genruntimeconfig.cache
+C:\Estudos\ScreenSound aprenda a programar em c# com OO\ScreenSound\ScreenSound\obj\Debug\net5.0\ref\ScreenSound.dll
