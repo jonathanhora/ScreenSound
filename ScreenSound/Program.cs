@@ -10,7 +10,29 @@ namespace ScreenSound
     {
         static void Main(string[] args)
         {
-            string mensagemDeBoasVindas = "Bem vindo ao Screen Sound!";
+
+            Musica musica1 = new Musica()
+            {
+                Nome = "Wake UP",
+                Artista = "Travis Scott",
+                Duracao = 200,
+                Disponivel = true                                
+            };
+            
+            Musica musica2 = new Musica()
+            {
+                Nome = "Can't Say",
+                Artista = "Travis Scott",
+                Duracao = 300,
+                Disponivel = false
+            };
+
+            Console.WriteLine(musica1.DescricaoResumida);
+            musica1.ExibirFixaDaMusica();
+            musica2.ExibirFixaDaMusica();
+
+
+            /*string mensagemDeBoasVindas = "Bem vindo ao Screen Sound!";
             //List<string> listaDasBandas = new List<string> { "U2", "Ozzy", "Kiss"};
             Dictionary<string, List<int>> BandasRegistradas = new Dictionary<string, List<int>>();
             BandasRegistradas.Add("Kiss", new List<int> { 10, 8, 6 });
@@ -153,7 +175,7 @@ namespace ScreenSound
             }
 
 
-            ExibirOpcoesDoMenu();
+            ExibirOpcoesDoMenu();*/
         }
     }
 }
