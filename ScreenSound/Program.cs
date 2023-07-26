@@ -10,8 +10,31 @@ namespace ScreenSound
     {
         static void Main(string[] args)
         {
+            Album albumTravis = new Album
+            {
+                Nome = "Astroworld"
+            };
 
-            Musica musica1 = new Musica()
+            Musica musica1 = new Musica
+            {
+                Nome = "BUTTERFLY EFFECT",
+                Duracao = 213
+            };
+
+            Musica musica2 = new Musica
+            {
+                Nome = "CAN'T SAY",
+                Duracao = 240
+                
+            };
+
+            albumTravis.AdicionarMusica(musica1);
+            albumTravis.AdicionarMusica(musica2);
+
+            albumTravis.ExibirMusicasDoAlbum();
+
+
+            /*Musica musica1 = new Musica()
             {
                 Nome = "Wake UP",
                 Artista = "Travis Scott",
@@ -29,7 +52,7 @@ namespace ScreenSound
 
             Console.WriteLine(musica1.DescricaoResumida);
             musica1.ExibirFixaDaMusica();
-            musica2.ExibirFixaDaMusica();
+            musica2.ExibirFixaDaMusica();*/
 
 
             /*string mensagemDeBoasVindas = "Bem vindo ao Screen Sound!";
