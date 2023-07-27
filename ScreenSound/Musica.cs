@@ -8,8 +8,14 @@ namespace ScreenSound
 {
     public class Musica
     {
-        public string Nome { get; set; }
-        public string Artista { get;set; }
+        public Musica(BandaArtista artista, string nome)
+        {
+            Artista = artista;
+            Nome = nome;
+        }
+
+        public string Nome { get;  }
+        public BandaArtista Artista { get; }
         public int Duracao { get; set; }
         public bool Disponivel { get;  set; }
 
@@ -20,7 +26,7 @@ namespace ScreenSound
         public void ExibirFixaDaMusica()
         {
             Console.WriteLine($"\nNome: {Nome}");
-            Console.WriteLine($"Artista: {Artista}");
+            Console.WriteLine($"Artista: {Artista.Nome}");
             Console.WriteLine($"Duração: {Duracao}");
 
             string disponivel;

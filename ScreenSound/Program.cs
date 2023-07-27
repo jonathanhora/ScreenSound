@@ -10,28 +10,44 @@ namespace ScreenSound
     {
         static void Main(string[] args)
         {
-            Album albumTravis = new Album
+            Episodio ep1 = new(2000, 2, "A descoberta");
+            ep1.AdicionarConvidados("Jonathan");
+            ep1.AdicionarConvidados("Polyanna");
+
+            Episodio ep2 = new(2000, 1, "O fim");
+            ep2.AdicionarConvidados("Carlos");
+            ep2.AdicionarConvidados("Thais");
+
+            Podcast podcast = new("Jorge", "+1Podcast");
+            podcast.AdicionarEpisodio(ep1);
+            podcast.AdicionarEpisodio(ep2);
+            podcast.ExibirDetalhes();
+
+            /*BandaArtista travisScott = new BandaArtista("Travis Scott");
+
+            Album albumTravis = new Album("Astroworld");
+
+            Musica musica1 = new Musica(travisScott, "BUTTERFLY EFFECT")
             {
-                Nome = "Astroworld"
+                Duracao = 213,
+                Disponivel = true
             };
 
-            Musica musica1 = new Musica
+            Musica musica2 = new Musica(travisScott, "CAN'T SAY")
             {
-                Nome = "BUTTERFLY EFFECT",
-                Duracao = 213
-            };
-
-            Musica musica2 = new Musica
-            {
-                Nome = "CAN'T SAY",
-                Duracao = 240
-                
+                Duracao = 240,
+                Disponivel = false
             };
 
             albumTravis.AdicionarMusica(musica1);
             albumTravis.AdicionarMusica(musica2);
 
             albumTravis.ExibirMusicasDoAlbum();
+
+            
+
+            travisScott.AdicionarAlbum(albumTravis);
+            travisScott.ExibirDiscografia();*/
 
 
             /*Musica musica1 = new Musica()
