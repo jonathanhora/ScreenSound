@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ScreenSound
+namespace ScreenSound.Modelos
 {
-    public class Podcast
+    internal class Podcast
     {
         List<Episodio> episodios = new List<Episodio>();
 

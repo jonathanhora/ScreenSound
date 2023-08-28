@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScreenSound
+namespace ScreenSound.Modelos
 {
-    public class Episodio
+    internal class Episodio
     {
         public int Duracao { get;  }
         public int Ordem { get;  }        

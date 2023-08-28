@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScreenSound
+namespace ScreenSound.Modelos
 {
-    public class Musica
+    internal class Musica
     {
         public Musica(BandaArtista artista, string nome)
         {

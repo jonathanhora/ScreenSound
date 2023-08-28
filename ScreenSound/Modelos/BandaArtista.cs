@@ -4,20 +4,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScreenSound
+namespace ScreenSound.Modelos
 {
-    public class BandaArtista
+    internal class BandaArtista : IAvaliavel
     {
+        private List<Album> albums = new List<Album>();
+        private List<Avaliacao> notas = new List<Avaliacao>();
+
         public BandaArtista(string nome) 
         {
             Nome = nome;
         }
-        private List<Album> albums = new List<Album>();
+        
         public string Nome { get; }
+        public double Media
+        {
+            get
+            {
+                if(notas.Count == 0)
+                    return 0;
+                else 
+                    return notas.Average(a => a.Nota);
+            }
+        }
+        public List<Album> Albums => albums;
 
         public void AdicionarAlbum(Album album)
         {
             albums.Add(album);
+        }
+
+        public void AdicionarNota(Avaliacao nota)
+        {
+            notas.Add(nota);
         }
 
         public void ExibirDiscografia()
