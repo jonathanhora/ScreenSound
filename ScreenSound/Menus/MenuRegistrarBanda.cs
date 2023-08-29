@@ -20,7 +20,7 @@ namespace ScreenSound.Menus
             BandaArtista banda = new BandaArtista(nomeBanda);
             bandasRegistradas.Add(nomeBanda, banda);
 
-            var client = new OpenAIAPI("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");
+            var client = new OpenAIAPI("");
 
             var chat = client.Chat.CreateConversation();
             chat.AppendSystemMessage($"Resuma o/a {nomeBanda} em 1 paragrafo. Adote um estilo informal.");
