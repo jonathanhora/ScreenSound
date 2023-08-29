@@ -20,6 +20,7 @@ namespace ScreenSound.Menus
             {
                 BandaArtista banda = bandasRegistradas[nomeDaBanda];
                 Console.WriteLine($"A nota média da banda {nomeDaBanda} é {banda.Media}");
+                Console.WriteLine(banda.Resumo);
 
                 Console.WriteLine("\nDiscografia:");
                 foreach(Album albuns in banda.Albums)

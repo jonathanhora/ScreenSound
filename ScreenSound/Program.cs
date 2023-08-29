@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using ScreenSound.Menus;
 using ScreenSound.Modelos;
+using OpenAI_API;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Tasks;
 
 namespace ScreenSound
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string mensagemDeBoasVindas = "Bem vindo ao Screen Sound!";
 

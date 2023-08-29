@@ -27,6 +27,9 @@ namespace ScreenSound.Modelos
                     return notas.Average(a => a.Nota);
             }
         }
+
+        public string? Resumo { get; set; }
+
         public List<Album> Albums => albums;
 
         public void AdicionarAlbum(Album album)
